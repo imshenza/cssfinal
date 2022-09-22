@@ -1,0 +1,83 @@
+*{box-sizing: border-box;}
+.container{
+    width: 40%;
+    background-color: rgb(141, 141, 141);
+}
+.html{
+    width: 50%;
+    background-color: #aa3a3a;
+    color: white;
+    padding-left: 40px;
+    height: 150px;
+    font-size: 120px;
+}
+.css{
+    width: 50%;
+    background-color: #aa3a3a;
+    color: white;
+    padding-left: 40px;
+    height: 150px;
+    font-size: 120px;
+}
+.c{
+    width: 60%;
+    background-color: #aa3a3a;
+    color: white;
+    padding-left: 40px;
+    height: 150px;
+    font-size: 120px;
+}
+.py{
+    width: 20%;
+    background-color: #aa3a3a;
+    color: white;
+    padding-left: 40px;
+    height: 150px;
+    font-size: 120px;
+}
+body{background-image: url(bg1.jpg);
+    background-size: cover;
+    font-size: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(208, 180, 142);
+}
+h1{color: rgb(255, 255, 255);
+margin-left: 50px;
+margin-bottom: 150px;
+}
+.nav{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: .6;
+    margin-top: 127px;
+}
+.items{
+    list-style: none;
+    display: flex;
+}
+.options{
+    color: rgb(229, 229, 229);
+    text-decoration: none;
+    font-size: 100px;
+    opacity: 1;
+    padding: 40px 200px;
+    background-color: rgb(0, 0, 0)
+}
+.options:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    opacity: .8;
+    background-color: rgb(255, 255, 255);
+}
+.skill{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-size: 100px;
+    opacity: 1;
+    padding: 40px 200px;
+    background-color: rgb(255, 255, 255);
+}
